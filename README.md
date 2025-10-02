@@ -1,6 +1,11 @@
-# Next.js App Application
+# Next.js で Orval を使用した API Routes + 外部 API のバイパスの試行
 
-## Get Started
+<details>
+<summary>Next.js App Application</summary>
+
+## Next.js App Application
+
+### Get Started
 
 Prerequisites:
 
@@ -17,12 +22,14 @@ cp .env.example .env
 yarn install
 ```
 
-#### `yarn run-mock-server`
+##### `yarn run-mock-server`
 
 Make sure to start the mock server before running the app.
 The mock server runs on [http://localhost:8080/api](http://localhost:8080/api).
 
-##### `yarn dev`
+###### `yarn dev`
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+
+</details>
