@@ -1,5 +1,9 @@
 # Next.js で Orval を使用した API Routes + 外部 API のバイパスの試行
 
+## #3 API Routes + Orval + Hono
+
+API Routes で Orval により生成された Hono の実装を使用する。
+
 <details>
 <summary>Next.js App Application</summary>
 
