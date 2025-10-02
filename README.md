@@ -4,6 +4,10 @@
 
 API Routes で Orval により生成された Hono の実装を使用する。
 
+```sh
+npx orval --config ./orval.config.ts
+```
+
 <details>
 <summary>Next.js App Application</summary>
 
