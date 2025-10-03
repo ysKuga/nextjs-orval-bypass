@@ -41,3 +41,17 @@ Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 </details>
+
+## 参考など
+
+- Next.js
+  - <https://github.com/alan2207/bulletproof-react>
+- OpenAPI
+  - <https://github.com/dgarcia360/openapi-boilerplate.git>
+- Orval
+  - <https://orval.dev/guides/hono>
+- [Next.js Route Handlers + HonoでバックエンドAPIを構築 & OpenAPIドキュメントを生成する](https://blog.mmmcorp.co.jp/2025/05/29/next-js-route-handlers-hono-openapi/)
+  - API Routes での Hono の使用について
+- [TypeScriptとHonoで作る最小構成のAPIサーバー](https://zenn.dev/yuzunosk55/articles/09275c72cf051b)
+  - `/api/petstore` の basePath 指定方法について
+  - <https://hono.dev/docs/api/routing#grouping-ordering>
