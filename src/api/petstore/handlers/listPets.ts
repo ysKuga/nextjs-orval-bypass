@@ -12,7 +12,9 @@ export const listPetsHandlers = factory.createHandlers(
   zValidator('response', listPetsResponse),
   async (c: ListPetsContext) => {
     return c.body(
-      Array.from({ length: 3 }).map(() => getListPetsResponseMock()),
+      Array.from({ length: 3 }).map(() =>
+        JSON.stringify(getListPetsResponseMock()),
+      ),
     );
   },
 );
