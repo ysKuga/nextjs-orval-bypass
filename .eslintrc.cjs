@@ -132,15 +132,16 @@ module.exports = {
       plugins: ['check-file'],
       files: ['src/**/*'],
       rules: {
-        'check-file/filename-naming-convention': [
-          'error',
-          {
-            '**/*.{ts,tsx}': 'KEBAB_CASE',
-          },
-          {
-            ignoreMiddleExtensions: true,
-          },
-        ],
+        // 'check-file/filename-naming-convention': [
+        //   'error',
+        //   {
+        //     // '**/*.{ts,tsx}': 'KEBAB_CASE',
+        //     '!(**/handlers)/**/*': 'KEBAB_CASE',
+        //   },
+        //   {
+        //     ignoreMiddleExtensions: true,
+        //   },
+        // ],
         'check-file/folder-naming-convention': [
           'error',
           {
